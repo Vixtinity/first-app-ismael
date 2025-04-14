@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {HousingLocation} from '../housinglocation';
 
 @Component({
   selector: 'app-housing-location',
   imports: [],
   templateUrl: './housing-location.component.html',
-  template:'<h1>hOLA</H1>',
   styleUrl: './housing-location.component.css'
 })
 export class HousingLocationComponent {
-
+  @Input() housingLocation!: HousingLocation;
 }
