@@ -1,10 +1,10 @@
 import {Component} from '@angular/core';
 import { HomeComponent } from './home/home.component';
-
+import { HousingLocationComponent } from './housing-location/housing-location.component';
 @Component({
   selector: 'app-root',
   
-  imports: [HomeComponent],
+  imports: [HomeComponent, HousingLocationComponent],
   template: `
         <main>
       <header class="brand-name">
@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
       </header>
       <section class="content">
         <app-home></app-home>
+        <app-housing-location></app-housing-location>
       </section>
     </main>
   `,
