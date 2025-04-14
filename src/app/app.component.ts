@@ -12,7 +12,6 @@ import { HousingLocationComponent } from './housing-location/housing-location.co
       </header>
       <section class="content">
         <app-home></app-home>
-        <app-housing-location></app-housing-location>
       </section>
     </main>
   `,
